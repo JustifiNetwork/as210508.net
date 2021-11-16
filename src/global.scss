@@ -1,0 +1,20 @@
+:root {
+	--font-mono: 'Source Code Pro', monospace;
+	--font-sans: 'Monda', sans-serif;
+
+	--clr-almost-black: #2c2f33;
+	--clr-pure-black: #000000;
+	--clr-winter-morning: #ffffff;
+	--clr-cold-winds: #3460fe;
+	--clr-mountain-side: #dedede;
+
+	--transition-time: 200ms;
+	--transition-curve: ease;
+	--transition: var(--transition-time) var(--transition-curve);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
