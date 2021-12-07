@@ -1,20 +1,20 @@
 :root {
-	--font-mono: 'Source Code Pro', monospace;
-	--font-sans: 'Monda', sans-serif;
+  --almost-black: #2c2f33;
+  --cold-winds: #3460fe;
+  --winter-morning: #ffffff;
 
-	--clr-almost-black: #2c2f33;
-	--clr-pure-black: #000000;
-	--clr-winter-morning: #ffffff;
-	--clr-cold-winds: #3460fe;
-	--clr-mountain-side: #dedede;
-
-	--transition-time: 200ms;
-	--transition-curve: ease;
-	--transition: var(--transition-time) var(--transition-curve);
+  --font-text: 'Monda', sans-serif;
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  font-family: var(--font-text);
+  color: var(--almost-black);
 }
