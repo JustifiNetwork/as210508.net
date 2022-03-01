@@ -1,0 +1,63 @@
+:root {
+  --dark: #2c2f33;
+  --light: #ffffff;
+  --accent: #3460fe;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article * + * {
+  margin-top: 1.25em;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Monda", sans-serif;
+  background: var(--dark);
+  color: var(--light);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  width: min(120ch, 80%);
+}
+
+a {
+  color: var(--accent);
+}
+
+h1 {
+  font-size: min(5rem, 15vw);
+
+  color: #3460fe;
+  text-shadow: 3px 3px 0px #ffffff;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h1 + p {
+  display: flex;
+  font-weight: bold;
+  margin-top: -1em;
+}
+
+img {
+  height: 2rem;
+  margin-left: 1rem;
+  margin-top: 0;
+}
+
+small {
+  font-weight: bold;
+}
